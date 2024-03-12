@@ -28,7 +28,7 @@ Overview of the initial setup including:
 
 ## Custom Objects and Fields
 ### Schema ###
-![ER Schema for project](documentation/ER%20Diagram.svg)
+![ER Schema for project](documentation/ER%20Diagram.drawio.svg)
 
 ## Automation and Process Builder
 Description and flow diagrams of the automation processes implemented:
