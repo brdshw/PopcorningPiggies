@@ -27,9 +27,8 @@ Overview of the initial setup including:
 - System-wide settings
 
 ## Custom Objects and Fields
-Detailed information about custom objects and fields created for this project:
-- Schema and relationships
-- Purpose and usage
+### Schema ###
+![ER Schema for project](documentation/ER%20Diagram.drawio.svg)
 
 ## Automation and Process Builder
 Description and flow diagrams of the automation processes implemented:
