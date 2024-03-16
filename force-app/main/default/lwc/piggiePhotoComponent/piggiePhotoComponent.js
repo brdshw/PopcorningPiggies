@@ -11,9 +11,9 @@ export default class PiggiePhotoComponent extends LightningElement {
     @wire(getPiggiePhoto, { recordId: '$recordId' })
     
     wiredPhotos({ error, data }) {
-        console.log('Im in the LWC JS');
-        if (data) {
-
+        
+        if (data && data.length > 0) {
+            
             this.imageUrl = `/sfc/servlet.shepherd/document/download/${data[0].ContentDocumentId}`;
 
                // Call the description method
